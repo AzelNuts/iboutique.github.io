@@ -75,6 +75,7 @@ input{
     padding: 0;
     margin: 0;
     display: inline;
+    /*align-content:  center;*/
   }
   
   img {
@@ -106,8 +107,12 @@ input{
     line-height: 1.8;
   }
   
-  h1, h3 {
-    color: #252b33;
+  h1 {
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+  }
+  h3 {
+    color: #000000;
     font-family: "Poppins", sans-serif;
   }
   
@@ -130,11 +135,12 @@ input{
     font-size: 2.25rem !important;
   }
   .oxyy-login-register .text-13 {
+    color: #000000;
     font-size: 3.25rem !important;
   }
   @media (max-width: 1200px) {
     .oxyy-login-register .text-13 {
-      font-size: calc(1.45rem + 2.4vw)  !important;
+      font-size: calc(1rem + 2vw)  !important;
     }
   }
    .oxyy-login-register .text-13 {
@@ -171,7 +177,9 @@ input{
       max-width: 1170px !important;
     }
   }
-  
+  div.alignment{
+    align-items: center;
+  }
   /* =================================== */
   /*  4. Elements
   /* =================================== */
