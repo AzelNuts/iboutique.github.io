@@ -3,8 +3,8 @@
     margin-bottom: 0px;
    }
 .alert-info {
-    color: #ffffff;
-    background-color: #977CB7;
+    color: #FFA500;
+    background-color: #000000;
     border-color: #bee5eb;  
 }
 
@@ -16,12 +16,15 @@
 .navbar img{
     height: 50px;
 }
+.navbar-brand{
+   margin-right: 5px;
+}
 .removed button {
-    background: #977CB7;
+    background: #0072c6;
     color: #ffffff;
 }
 .removed button:hover {
-background-color: #a668f1;
+    background-color: #ff9800;
     color: #ffffff;
 }
 
@@ -43,11 +46,11 @@ background-color: #a668f1;
 
 
 .add-to-cart button{
-    background-color: #977CB7;
+    background-color: #0072c6;
     border: #977CB7;
 }
 .add-to-cart button:hover{
-    background-color: #a668f1;
+    background-color: #ff9800;
     color: #ffffff;
 
 }
