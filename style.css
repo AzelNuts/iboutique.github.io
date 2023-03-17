@@ -17,6 +17,10 @@ body{
     color: #000;
 }
 
+.price_name:hover{
+    color: #1e90ff;
+    
+}
 nav{
     flex: 1;
     text-align: right;
@@ -189,7 +193,7 @@ p{
 }
 
 h4{
-    color: #555;
+    color: #f7bf4f;
     font-weight: normal;
 }
 
