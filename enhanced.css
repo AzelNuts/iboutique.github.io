@@ -1,33 +1,4 @@
-/*===========================================================
 
-   Template Name: Oxyy - Login and Register Form Html Templates
-   Author: Harnish Design
-   Template URL: http://demo.harnishdesign.net/html/oxyy
-   Author URL: https://themeforest.net/user/harnishdesign
-   File Description : Main css file of the template
-	
-=================================================
-  Table of Contents
-=================================================
-
-	1. Basic
-	2. Helpers Classes
-	3. Layouts
-	4  Elements
-		4.1 Hero Background
-		4.2 Nav
-		4.3 Tabs
-		4.4 Video Play button
-	5 Social Icons
-	6 Extra
-		6.1 Form
-		6.2 Form Dark
-		6.3 Form Border
-		6.4 Form Border Light
-		6.5 Vertical Multilple input group
-		6.6 Other Bootstrap Specific
-
-=======================================================*/
 /* =================================== */
 /*  1. Basic Style 
 /* =================================== */
@@ -71,12 +42,7 @@ input{
       transform: translate(24px, 0);
     }
   }
-  form {
-    padding: 0;
-    margin: 0;
-    display: inline;
-    /*align-content:  center;*/
-  }
+  
   
   img {
     vertical-align: inherit;
@@ -116,16 +82,6 @@ input{
     font-family: "Poppins", sans-serif;
   }
   
-  /* =================================== */
-  /*  2. Helpers Classes
-  /* =================================== */
-  /* Box Shadow */
-  
-  /* Border Radius */
-  
-  /* Border Size */
-  
-  /* Text Size */
   .oxyy-login-register .text-2 {
     font-size: 14px !important;
     font-size: 0.875rem !important;
@@ -180,24 +136,7 @@ input{
   div.alignment{
     align-items: center;
   }
-  /* =================================== */
-  /*  4. Elements
-  /* =================================== */
-  /*=== 4.1 Hero Background ===*/
-  
-  /* 4.2 Nav */
-  
-  /*=== 4.3 Tabs ===*/
-  
-  /* 4.4 Video Play button */
-  
-  /* =================================== */
-  /*  5. Social Icons
-  /* =================================== */
-  
-  /* =================================== */
-  /*  6. Extras
-  /* =================================== */
+
   /* 6.1 Form */
   .oxyy-login-register .form-control {
     border-color: #dae1e3;
@@ -234,7 +173,12 @@ input{
     /* IE 10+ */
     color: #b1b4b6;
   }
-  
+  form {
+    padding: 0;
+    margin: 0;
+    display: inline;
+    /*align-content:  center;*/
+  }
   /* 6.2 Form Dark */
   
   /* 6.3 Form Border (Input with only bottom border)  */
